@@ -1,7 +1,6 @@
 import React from "react";
 
 const Contact = () => {
-  export default function Contact() {
     const [name, setName] = React.useState("");
     const [email, setEmail] = React.useState("");
     const [message, setMessage] = React.useState("");
@@ -29,7 +28,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <div className="container px-5 py-10 mx-auto lg:px-40">
-        <form netlify name="contact">
+        <form netlify name="contact" onSubmit={handleSubmit}>
           <h2 className="text-center mb-5 text-purple-900 sm:text-4xl text-3xl font-medium title-font">
             Trabaja Conmigo
           </h2>
