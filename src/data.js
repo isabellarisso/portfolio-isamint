@@ -14,7 +14,7 @@ export const projects = [
     description:
       "2° <L>: consumir, ordenar e imprimir data sobre las peliculas de Studio Ghibli",
     image: "./ghiblipedia.png",
-    link: "https://reedbarger.com",
+    link: "https://github.com/ixrisso/SCL018-data-lovers/",
     demo: "https://ixrisso.github.io/SCL018-card-validation/",
   },
   {
