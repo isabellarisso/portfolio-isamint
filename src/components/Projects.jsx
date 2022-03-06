@@ -38,6 +38,7 @@ const Projects = () => {
                   <a
                     href={project.demo}
                     target="_blank"
+                    rel="noreferrer"
                     className="inline-flex items-center ml-1 mr-1 text-stone-50 bg-teal-500 border-0 py-1 px-3 focus:outline-none hover:bg-teal-600 rounded text-base  mt-4 md:mt-0"
                   >
                     Demo
@@ -45,6 +46,7 @@ const Projects = () => {
                   <a
                     href={project.link}
                     target="_blank"
+                    rel="noreferrer"
                     className="inline-flex items-center ml-1 mr-1 text-stone-50 bg-teal-500 border-0 py-1 px-3 focus:outline-none hover:bg-teal-600 rounded text-base mt-4 md:mt-0"
                   >
                     Codigo
